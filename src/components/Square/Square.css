@@ -1,0 +1,17 @@
+.square {
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid whitesmoke;
+  border-radius: 2px 16px 2px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transform: scale(1) rotate(360deg);
+  transition: transform 250ms ease, color 250ms ease;
+}
+
+.square:hover {
+  background-color: crimson;
+  transform: scale(1.1);
+}
